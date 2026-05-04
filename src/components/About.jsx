@@ -6,8 +6,8 @@ const About = () => {
     const highlights = [
         { icon: '🎓', label: 'GPA', value: '8.14', color: 'from-primary to-purple-400' },
         { icon: '💻', label: 'Projects', value: '3+', color: 'from-secondary to-cyan-400' },
-        { icon: '🚀', label: 'Focus', value: 'Full-Stack', color: 'from-accent to-pink-400' },
-        { icon: '📍', label: 'Location', value: 'Gujarat, India', color: 'from-emerald-500 to-teal-400' },
+        { icon: '🚀', label: 'Focus', value: 'Web + Mobile', color: 'from-accent to-pink-400' },
+        { icon: '📍', label: 'Location', value: 'Gandhinagar, India', color: 'from-emerald-500 to-teal-400' },
     ];
 
     return (
@@ -18,23 +18,22 @@ const About = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-10 items-start">
-                    {/* Text card */}
                     <div className="glass p-8 md:p-10 reveal-left" style={{ transitionDelay: '0.1s' }}>
                         <h3 className="text-2xl font-bold text-primary-light mb-5">Who I Am</h3>
                         <p className="text-text-secondary mb-5 leading-relaxed text-base">
                             I'm <strong className="text-text-primary">Arnab Mallick</strong>, a passionate Full-Stack Developer and B.Tech
                             Computer Science student at <strong className="text-text-primary">IIIT Vadodara</strong>. I specialize in building
-                            robust web applications using the MERN stack and have a keen interest in
-                            creating seamless user experiences.
+                            scalable web and mobile applications using the MERN stack and React Native,
+                            with a keen interest in real-time systems and seamless user experiences.
                         </p>
                         <p className="text-text-secondary mb-6 leading-relaxed text-base">
-                            With a strong foundation in Data Structures, Algorithms, and Database Design,
-                            I love tackling complex problems and turning ideas into reality. When I'm not coding,
-                            you'll find me exploring photography, playing music, or contributing to cultural events.
+                            With a strong foundation in API development, database design, and core computer science,
+                            I love turning ideas into reliable products. When I'm not coding, you'll find me exploring
+                            photography, playing music, or contributing to campus initiatives and events.
                         </p>
 
                         <div className="flex flex-wrap gap-3 mt-6">
-                            {['Web Development', 'Problem Solving', 'Photography', 'Music'].map((tag, i) => (
+                            {['Web Development', 'React Native', 'Real-Time Apps', 'Problem Solving', 'Photography', 'Music'].map((tag, i) => (
                                 <span
                                     key={tag}
                                     className="px-5 py-2 bg-primary/15 border border-primary/30 rounded-full text-sm text-primary-light transition-all duration-300 hover:bg-primary/25 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/10 cursor-default"
@@ -46,7 +45,6 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Highlight cards */}
                     <div className="grid grid-cols-2 gap-4">
                         {highlights.map((item, index) => (
                             <div

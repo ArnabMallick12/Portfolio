@@ -35,7 +35,8 @@ const Education = () => {
     ];
 
     const activities = [
-        { name: 'Cultural Committee', role: 'Member', icon: '🎭', desc: 'Contributing to planning and organizing cultural events' },
+        { name: 'Cultural Committee', role: 'Core Member', icon: '🎭', desc: 'Contributed to planning and organizing cultural events.' },
+        { name: 'Academics Committee', role: 'Core Member', icon: '🎤', desc: 'Organized TEDx IIIT Vadodara.' },
         { name: 'Obscura - The Photography Club', role: 'Member', icon: '📷', desc: '' },
         { name: 'Encore - The Music Club', role: 'Member', icon: '🎵', desc: '' },
     ];
@@ -47,9 +48,7 @@ const Education = () => {
                     Education
                 </h2>
 
-                {/* Timeline */}
                 <div className="relative max-w-3xl mx-auto mb-16">
-                    {/* Timeline line */}
                     <div className="absolute left-[30px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-accent hidden md:block" />
 
                     {education.map((edu, index) => (
@@ -58,12 +57,10 @@ const Education = () => {
                             className="flex flex-col md:flex-row gap-6 mb-10 reveal-left"
                             style={{ transitionDelay: `${index * 0.2}s` }}
                         >
-                            {/* Timeline marker */}
                             <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${edu.gradient} flex items-center justify-center text-2xl shrink-0 relative z-10 shadow-lg shadow-primary/20`}>
                                 {edu.icon}
                             </div>
 
-                            {/* Card */}
                             <div className="glass flex-1 p-7">
                                 <div className="flex flex-col sm:flex-row justify-between items-start gap-3 mb-3">
                                     <h3 className="text-lg font-bold text-primary-light">{edu.institution}</h3>
@@ -85,11 +82,10 @@ const Education = () => {
                     ))}
                 </div>
 
-                {/* Courses & Activities */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="glass p-7 reveal" style={{ transitionDelay: '0.3s' }}>
                         <h3 className="text-lg font-bold text-text-primary mb-5 flex items-center gap-2">
-                            📖 Relevant Courses
+                            📘 Relevant Courses
                         </h3>
                         <div className="flex flex-wrap gap-2.5">
                             {courses.map((course, i) => (
