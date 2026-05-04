@@ -3,7 +3,7 @@ import useScrollReveal from '../hooks/useScrollReveal';
 
 const Hero = () => {
     const profileImage = 'https://drive.google.com/file/d/1TNqOnaw2QOOFwfJi4GBTEGGbaMQnQH3E/view?usp=drive_link';
-    const resumeLink = 'https://drive.google.com/file/d/1Y9g4xkJ8xuqRX1P6r5aSkVAc9_WWXfZP/view?usp=sharing';
+    const resumeLink = 'https://drive.google.com/file/d/1JndY5_nbK5erl3FlkuDYoevPHn8Eu40e/view?usp=sharing';
 
     const [displayText, setDisplayText] = useState('');
     const [currentIndex, setCurrentIndex] = useState(0);
