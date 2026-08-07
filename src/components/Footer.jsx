@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-8">
                     <div className="text-center md:text-left">
                         <span className="font-heading text-3xl font-extrabold gradient-text">AM</span>
-                        <p className="text-text-muted mt-1.5 text-sm">Full-Stack & React Native Developer</p>
+                        <p className="text-text-muted mt-1.5 text-sm">Full-Stack Developer</p>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-6 md:gap-8">

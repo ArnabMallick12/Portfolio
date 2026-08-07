@@ -7,7 +7,7 @@ const Hero = () => {
 
     const [displayText, setDisplayText] = useState('');
     const [currentIndex, setCurrentIndex] = useState(0);
-    const titles = ['Full-Stack Developer', 'React Native Developer', 'MERN Stack Builder', 'Real-Time App Developer'];
+    const titles = ['Full-Stack Developer', 'MERN Stack Builder', 'Real-Time App Developer', 'Backend Developer'];
 
     let formattedImage = profileImage;
     if (profileImage.includes('drive.google.com/file/d/')) {
@@ -87,8 +87,8 @@ const Hero = () => {
                         <span className="text-primary text-2xl animate-blink">|</span>
                     </div>
                     <p className="text-text-secondary text-lg max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed animate-slide-up" style={{ animationDelay: '0.4s' }}>
-                        Full-Stack Developer skilled in the MERN stack and React Native,
-                        building scalable and real-time web and mobile applications with
+                        Full-Stack Developer skilled in the MERN stack,
+                        building scalable and real-time web applications with
                         strong API development and database design fundamentals.
                     </p>
 

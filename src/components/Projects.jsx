@@ -6,14 +6,12 @@ const Projects = () => {
     const projects = [
         {
             title: 'Ping Me',
-            subtitle: 'Cross-Platform Real-Time Chat Application',
-            description: 'Built a cross-platform chat application for web and mobile using React, React Native, a shared Node.js backend, MongoDB, and Zustand for seamless state updates.',
-            tech: ['MongoDB', 'Express.js', 'React.js', 'React Native', 'Node.js', 'Socket.io', 'Zustand', 'Expo'],
+            subtitle: 'Real-Time Chat Application',
+            description: 'Built a real-time chat application using React, a Node.js backend, MongoDB, and Zustand for seamless state updates.',
+            tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Socket.io', 'Zustand'],
             gradient: 'from-primary via-purple-500 to-secondary',
-            features: ['Real-time messaging via Socket.io', 'Presence and typing indicators', 'Shared backend for web + mobile', 'RESTful APIs with MongoDB'],
+            features: ['Real-time messaging via Socket.io', 'Presence and typing indicators', 'RESTful APIs with MongoDB', 'Responsive React frontend'],
             github: 'https://github.com/ArnabMallick12/PingMe',
-            extraLink: 'https://github.com/ArnabMallick12/PingMe-Mobile',
-            extraLabel: 'Mobile Code',
             demo: 'https://ping-me-navy.vercel.app/',
         },
         {

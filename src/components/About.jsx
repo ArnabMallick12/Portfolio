@@ -6,7 +6,7 @@ const About = () => {
     const highlights = [
         { icon: '🎓', label: 'GPA', value: '8.14', color: 'from-primary to-purple-400' },
         { icon: '💻', label: 'Projects', value: '3+', color: 'from-secondary to-cyan-400' },
-        { icon: '🚀', label: 'Focus', value: 'Web + Mobile', color: 'from-accent to-pink-400' },
+        { icon: '🚀', label: 'Focus', value: 'Full-Stack Web', color: 'from-accent to-pink-400' },
         { icon: '📍', label: 'Location', value: 'Gandhinagar, India', color: 'from-emerald-500 to-teal-400' },
     ];
 
@@ -23,7 +23,7 @@ const About = () => {
                         <p className="text-text-secondary mb-5 leading-relaxed text-base">
                             I'm <strong className="text-text-primary">Arnab Mallick</strong>, a passionate Full-Stack Developer and B.Tech
                             Computer Science student at <strong className="text-text-primary">IIIT Vadodara</strong>. I specialize in building
-                            scalable web and mobile applications using the MERN stack and React Native,
+                            scalable web applications using the MERN stack,
                             with a keen interest in real-time systems and seamless user experiences.
                         </p>
                         <p className="text-text-secondary mb-6 leading-relaxed text-base">
@@ -33,7 +33,7 @@ const About = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-3 mt-6">
-                            {['Web Development', 'React Native', 'Real-Time Apps', 'Problem Solving', 'Photography', 'Music'].map((tag, i) => (
+                            {['Web Development', 'MERN Stack', 'Real-Time Apps', 'Problem Solving', 'Photography', 'Music'].map((tag, i) => (
                                 <span
                                     key={tag}
                                     className="px-5 py-2 bg-primary/15 border border-primary/30 rounded-full text-sm text-primary-light transition-all duration-300 hover:bg-primary/25 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/10 cursor-default"

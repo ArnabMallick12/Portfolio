@@ -12,11 +12,11 @@ const Skills = () => {
             skills: ['C', 'C++', 'JavaScript', 'Python'],
         },
         {
-            title: 'Frontend & Mobile',
+            title: 'Frontend',
             icon: '🌐',
             gradient: 'from-secondary to-cyan-400',
             borderGlow: 'hover:shadow-cyan-400/20',
-            skills: ['HTML', 'CSS', 'JavaScript', 'React', 'React Native', 'Expo'],
+            skills: ['HTML', 'CSS', 'JavaScript', 'React'],
         },
         {
             title: 'Database Systems',
@@ -36,7 +36,6 @@ const Skills = () => {
 
     const techStack = [
         { name: 'React', icon: 'https://cdn.simpleicons.org/react/61DAFB', color: 'from-cyan-400 to-blue-500' },
-        { name: 'React Native', icon: 'https://cdn.simpleicons.org/react/61DAFB', color: 'from-cyan-400 to-sky-500' },
         { name: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/339933', color: 'from-green-400 to-emerald-600' },
         { name: 'Express', icon: 'https://cdn.simpleicons.org/express/ffffff', color: 'from-gray-400 to-gray-600' },
         { name: 'MongoDB', icon: 'https://cdn.simpleicons.org/mongodb/47A248', color: 'from-green-500 to-green-700' },
@@ -48,7 +47,6 @@ const Skills = () => {
         { name: 'Postman', icon: 'https://cdn.simpleicons.org/postman/FF6C37', color: 'from-orange-500 to-orange-600' },
         { name: 'MySQL', icon: 'https://cdn.simpleicons.org/mysql/4479A1', color: 'from-blue-500 to-sky-400' },
         { name: 'Socket.io', icon: 'https://cdn.simpleicons.org/socketdotio/ffffff', color: 'from-gray-400 to-gray-500' },
-        { name: 'Expo', icon: 'https://cdn.simpleicons.org/expo/ffffff', color: 'from-slate-400 to-slate-600' },
     ];
 
     const specializations = [
@@ -58,9 +56,9 @@ const Skills = () => {
             desc: 'End-to-end web application development',
         },
         {
-            name: 'Mobile Development',
+            name: 'Real-Time Systems',
             icon: <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5h3m-7.5 3h12A1.5 1.5 0 0119.5 6v12A1.5 1.5 0 0118 19.5H6A1.5 1.5 0 014.5 18V6A1.5 1.5 0 016 4.5zm4.5 12h.008v.008H10.5v-.008z" /></svg>,
-            desc: 'Cross-platform apps with React Native and Expo',
+            desc: 'Live messaging and real-time data with Socket.io',
         },
         {
             name: 'Database Design',
